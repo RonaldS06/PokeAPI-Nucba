@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(25, 24, 24);
+    font-family: 'Kanit', sans-serif;
+    color: white;
+}
+main h1{
+    font-weight: bold;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.container{
+    text-align: center;
+}
+
+input{
+    width: 15rem;
+    background-color:#45473c;
+    padding: .9rem 1rem;
+    border-radius: .71rem;
+    border: none;
+    outline: none;
+    color: white;
+}
+#busquedaPokemon{
+    width: fit-content;
+    padding: 9px 1rem;
+    border-radius: 20px;
+    background-color: #D6F83F;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    margin-left: 1rem;
+}
+
+.pokemon-card{
+    background-color: rgb(255, 255, 255);
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 12px;
+    margin-top: 1rem;
+    color: black;
+}
+
+.img-pokemon{
+    background-color: #D6F83F;
+    border-radius: 1rem;
+}
+
+.title-pokemon{
+    text-transform: uppercase;
+}
+.noValid{
+    color: red;
+}
